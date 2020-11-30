@@ -1,0 +1,30 @@
+#contactShell{
+    height: 100%;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+}
+
+.contactBody{
+    display: grid;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.contactHeader{
+    margin-top: 10%;
+      display: flex;
+      align-items: center;
+      width: 100% !important;
+      height: 10%;
+  }
+
+  .contactHr{
+    background-color: white;
+    width: 10% !important;
+    height: 3px;
+    color: white;
+  }

@@ -1,0 +1,86 @@
+.headerShell{
+    z-index: 5;
+}
+
+@media(min-width: 800px){
+    .headerShell{
+        position: fixed;
+        background-color: black;
+        border-bottom: 1px solid white;
+        height: 8%;
+        width: 98%;
+        top: 0;
+        box-shadow: 0 10px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .logoImg{
+        height: 90%;
+        position: absolute;
+        left: 0px;
+    }
+    
+    .divLinks{
+        position: absolute;
+        display: flex;
+        height: 100%;
+        right: 1px;
+        color: white;
+        align-items: center;
+    }
+    
+    .myLink{
+        color: white;
+        margin-top: 20px !important;
+        margin-right: 25px;
+        font-size: 30px;
+        text-decoration: none;
+        transition: .2s;
+    }
+    
+    .myLink:hover{
+        transform: scale(1.2);
+    }
+}
+
+@media(max-width: 799px){
+    .headerShell{
+        position: relative;
+        border-bottom: 1px solid white;
+        height: 8%;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: sticky;
+    }
+    
+    .logoImg{
+        position: absolute;
+        right: 0px;
+    }
+    
+    .divLinks{
+        position: absolute;
+        display: flex;
+        height: 100%;
+        left: 1px;
+        color: white;
+        align-items: center;
+    }
+    
+    .myLink{
+        color: rgb(228, 105, 105);
+        margin-top: 20px !important;
+        margin-right: 25px;
+        font-size: 30px;
+        text-decoration: none;
+        transition: .2s;
+    }
+    
+    .myLink:hover{
+        transform: scale(1.2);
+    }
+    
+    .myLink:active{
+        text-decoration: underline;
+    }
+}
+
+

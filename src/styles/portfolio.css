@@ -1,0 +1,115 @@
+@media(min-width: 800px){
+    #portfolioShell{
+        display: grid;
+        height: 100%;
+        background-color: black;
+        text-align: center; 
+        color: white;
+    }
+
+    .customPara{
+        font-size: 55px;
+    }
+
+    .acaLogo{
+        width: 10%;
+    }
+    
+    .portLinks{
+        color: white !important;
+    }
+
+    /* ==Small Business== */
+    .smallBusiness{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .smallImg{
+        width: 90%;
+        opacity: 75%;
+        transition: .3s;
+    }
+
+    .smallImg:hover{
+        width: 120%;
+        opacity: 100%;
+        z-index: 2;
+        align-self: center;
+    }
+
+
+
+    .imageLine{
+        width: 90%;
+        display: grid;
+        margin-right: 0px !important;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    /* ==Fake Cars== */
+
+    .fakeCars{
+        display: grid;
+        margin-top: 50px;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    /* ==mobile== */
+    .mobileDiv{
+        display: grid;
+        margin-top: 120px;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+
+    .androidApple{
+        width: 15%;
+    }
+
+    .imageLineTwo{
+        width: 90%;
+        display: grid;
+        margin-top: 50px;
+        margin-right: 0px !important;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .smallImgTwo{
+        width: 50%;
+        opacity: 75%;
+        transition: .3s;
+    }
+
+    .smallImgTwo:hover{
+        width: 60%;
+        opacity: 100%;
+        z-index: 2;
+        align-self: center;
+    }
+
+    .selfteckLinks{
+        display: grid;
+        justify-items: center;
+    }
+
+    .selfLink{
+        color: white!important;
+        font-size: 25px;
+        margin-top: 35px;
+    }
+}
