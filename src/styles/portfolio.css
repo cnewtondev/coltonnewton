@@ -7,38 +7,83 @@
         color: white;
     }
 
+    .resumeHeader{
+        margin-top: 30%;
+    }
+
     .customPara{
         font-size: 35px;
     }
 
     .acaLogo{
-        width: 10%;
+        width: 20%;
+    }
+
+    .portLinks{
+        color: white !important;
     }
 
     .imageLine{
-        width: 90%;
         display: grid;
         margin-right: 0px !important;
         grid-template-rows: 45% 45%;
+        grid-row-gap: 10px;
         justify-items: center;
+        align-content: center;
     }
     
 
     .smallImg{
-        width: 30%;
+        margin-top: 10px;
+        width: 85%;
         opacity: .75;
         transition: .3s;
+    }
+
+    .smallImg:hover{
+        width: 95%;
+        opacity: 1;
+        z-index: 2;
+        align-self: center;
     }
 
     /* ==Native Styles small== */
     .androidApple{
-        width: 15%;
+        width: 20%;
+    }
+
+    .selfteckLinks{
+        display: grid;
+        justify-items: center;
+    }
+
+    .selfLink{
+        color: white!important;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+    .imageLineTwo{
+        display: grid;
+        margin-top: 50px;
+        margin-right: 0px !important;
+        grid-template-rows: 50% 50%;
+        align-content: center;
+        justify-items: center;
     }
 
     .smallImgTwo{
+        margin-bottom: 10px;
         width: 50%;
         opacity: .75;
         transition: .3s;
+    }
+
+    .smallImgTwo:hover{
+        width: 60%;
+        opacity: 1;
+        z-index: 2;
+        align-self: center;
     }
 }
 
