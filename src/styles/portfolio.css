@@ -1,3 +1,47 @@
+@media(max-width: 799px){
+    #portfolioShell{
+        display: grid;
+        height: 100%;
+        background-color: black;
+        text-align: center; 
+        color: white;
+    }
+
+    .customPara{
+        font-size: 35px;
+    }
+
+    .acaLogo{
+        width: 10%;
+    }
+
+    .imageLine{
+        width: 90%;
+        display: grid;
+        margin-right: 0px !important;
+        grid-template-rows: 45% 45%;
+        justify-items: center;
+    }
+    
+
+    .smallImg{
+        width: 30%;
+        opacity: .75;
+        transition: .3s;
+    }
+
+    /* ==Native Styles small== */
+    .androidApple{
+        width: 15%;
+    }
+
+    .smallImgTwo{
+        width: 50%;
+        opacity: .75;
+        transition: .3s;
+    }
+}
+
 @media(min-width: 800px){
     #portfolioShell{
         display: grid;
@@ -29,13 +73,13 @@
 
     .smallImg{
         width: 90%;
-        opacity: 75%;
+        opacity: .75;
         transition: .3s;
     }
 
     .smallImg:hover{
         width: 120%;
-        opacity: 100%;
+        opacity: 1;
         z-index: 2;
         align-self: center;
     }
@@ -91,13 +135,13 @@
 
     .smallImgTwo{
         width: 50%;
-        opacity: 75%;
+        opacity: .75;
         transition: .3s;
     }
 
     .smallImgTwo:hover{
         width: 60%;
-        opacity: 100%;
+        opacity: 1;
         z-index: 2;
         align-self: center;
     }

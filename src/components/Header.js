@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/header.css'
 import Logo from '../imgs/logo.png';
+import MobileMenu from './MobileMenu'
 
 class Header extends Component {
     state = {  }
@@ -14,6 +15,7 @@ class Header extends Component {
                   <a className='myLink'  href='#resumeShell'>Resume</a>
                   <a className='myLink'  href='#contactShell'>Contact</a>
               </div>
+              <MobileMenu className='mobileMenu'/>
           </div>
          );
     }
