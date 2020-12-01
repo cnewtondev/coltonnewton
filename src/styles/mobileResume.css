@@ -1,0 +1,57 @@
+@media(max-width: 799px){
+    #mobileResumeShell{
+        margin-top: 60px;
+    }
+
+    .resDrawerBtn{
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        top: 40%;
+        background-color: #484848;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 200px;
+        width: 15px;
+        z-index: 4;
+    }
+
+    .dragIcon{
+        transform: rotate(90deg);
+    }
+
+    .resDrawer{
+        height: 45px !important;
+    }
+
+    .MuiDrawerTwo-paper{
+        background-color: #484848 !important;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        top: 5% !important;
+        bottom: 5% !important;
+        height: 90% !important;
+        color: white!important;
+    }
+
+    /* ==Mobile Res Left== */
+    .mobHeadShot{
+        width: 40%;
+    }
+
+    .contact h4{
+        margin: 0px;
+    }
+
+    .resIconTwo{
+        font-size: 20px !important;
+        margin-bottom: -5px;
+        margin-top: 5px;
+    }
+
+    .reshTwo{
+        font-size: 12px !important;
+        color: white;
+    }
+  }

@@ -11,6 +11,8 @@ import { AccessAlarm, ThreeDRotation } from '@material-ui/icons'
 const useStyles = makeStyles({
   list: {
     width: 250,
+    backgroundColor: '#353434',
+    height: 5000
   },
   fullList: {
     width: 'auto',

@@ -78,10 +78,6 @@
         cursor: pointer;
     }
 
-    .MuiPaper-root{
-        background-color: #353434 !important;
-    }
-
     .links{
         display: flex;
         flex-direction: column;
