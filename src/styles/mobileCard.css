@@ -1,38 +1,27 @@
 @media(max-width: 799px){
-    .parallax-tilt-effect{
-        display: none;
-    }
-}
-
-@media(min-width: 800px){
-    .parallax-tilt-effect {
-        display: flex;
+    .parallax-tilt-effect-two {
+        display: grid;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 10vh;
-        width: 350px;
-        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 65vh;
         background-color: #353434;
         color: white;
-        border: 4px solid black;
         border-radius: 20px;
         transform-style: preserve-3d;
         margin-bottom: 200px;
       }
       
-        .inner-element-one {
-          position: absolute;
-          left: 5%;
-          display: flex;
-          width: 50%;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          font-size: 25px;
-          color: white;
+        .inner-element-three {
+          position: relative;  
+          top: 110%;
+          left: 5px;
+          width: 45%;
           transform: translateZ(25px);
-          margin-top: 12%;
         }
       
         .cardTitle{
@@ -47,19 +36,23 @@
             width: 80%;
             margin-top: 10px;
         }
+
+        .mobileCardHr{
+            background-color: goldenrod !important;
+            height: 45vh;
+            margin-top: -20%;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            
+            width: 1px;
+        }
       
-        .inner-element-two {
-          position: absolute;
-          right: 2%;
-          display: flex;
-          width: 39%;
-          height: 80%;
-          border-left: 3px solid goldenrod;
-          flex-direction: column;
-          justify-content: center;
-          justify-items: center;
-          align-items: center;
-          align-content: center;
+        .inner-element-four {
+          position: relative;
+          bottom: 120%;
+          width: 50%;
+          margin-left: auto;
           color: white;
           transform: translateZ(10px);
         }
@@ -95,3 +88,11 @@
         }
       
 }
+
+
+@media(min-width: 800px){
+    .parallax-tilt-effect-two{
+        display: none;
+    }
+}
+

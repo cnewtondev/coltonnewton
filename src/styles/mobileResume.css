@@ -4,7 +4,7 @@
     }
 
     .resDrawerBtn{
-        position: absolute;
+        position: fixed;
         display: grid;
         justify-content: center;
         align-content: center;
@@ -54,4 +54,18 @@
         font-size: 12px !important;
         color: white;
     }
+
+    /* ===Mobile Res Right=== */
+    .mobileResTitle{
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .skillWrapperTwo{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-column-gap: 20px;
+        height: 100%;
+        list-style: none;
+       }
   }

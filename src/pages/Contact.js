@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../components/Card'
+import MobileCard from '../components/MobileCard'
 import '../styles/contact.css'
 
 class Contact extends Component {
@@ -15,6 +16,7 @@ class Contact extends Component {
                     </div>
 
                     <Card/>
+                    <MobileCard/>
                 </div>
             </div>
          );
