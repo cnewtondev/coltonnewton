@@ -4,14 +4,16 @@ import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import MenuIcon from '@material-ui/icons/Menu';
+import HomeIcon from '@material-ui/icons/Home';
+import FolderIcon from '@material-ui/icons/Folder';
+import DescriptionIcon from '@material-ui/icons/Description';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
 
-
-import { AccessAlarm, ThreeDRotation } from '@material-ui/icons'
 
 const useStyles = makeStyles({
   list: {
     width: 250,
-    backgroundColor: '#353434',
+    backgroundColor: '#484848',
     height: 5000
   },
   fullList: {
@@ -45,10 +47,19 @@ export default function TemporaryDrawer() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
+      <div className='titleDiv'>
+          <p className='titlePara'>Menu</p>
+        </div>
       <List className='links'>
+        <HomeIcon className='mobMenuIcon'/>
         <a className='myLink' href='#homeShell'>Home</a>
+        <FolderIcon className='mobMenuIcon'/>
         <a className='myLink'  href='#portfolioShell'>Portfolio</a>
-        <a className='myLink'  href='#resumeShell'>Resume</a>
+        <DescriptionIcon className='mobMenuIcon'/>
+        <a className='mobResLink' href='#mobileResumeShell'>Resume</a>
+        
+        <a className='desktopResLink'  href='#resumeShell'>Resume</a>
+        <AccountBoxIcon className='mobMenuIcon'/>
         <a className='myLink'  href='#contactShell'>Contact</a>
       </List>
     </div>

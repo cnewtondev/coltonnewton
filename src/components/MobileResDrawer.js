@@ -84,7 +84,7 @@ export default function MobileResDrawer() {
                         <li>Highly Efficient</li>
                         <li>Team Leadership and Commitment</li>
                         <li>Problem Solving</li>
-                        <li>Resilience</li>
+                        <li>Resilient</li>
                 </div>
       </List>
     </div>

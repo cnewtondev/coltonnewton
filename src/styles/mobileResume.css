@@ -1,3 +1,9 @@
+@media(min-width: 800px){
+    #mobileResumeShell{
+        display: none;
+    }
+}
+
 @media(max-width: 799px){
     #mobileResumeShell{
         margin-top: 60px;
@@ -67,5 +73,10 @@
         grid-column-gap: 20px;
         height: 100%;
         list-style: none;
+       }
+
+       .mobResh{
+           color: white !important;
+           margin-right: 5px;
        }
   }

@@ -52,9 +52,9 @@ class Resume extends Component {
                         <li>Clear Speaker</li>
                         <li>Logical Decision Making</li>
                         <li>Highly Efficient</li>
-                        <li>Team Leadership and Commitment</li>
+                        <li>Team Commitment</li>
                         <li>Problem Solving</li>
-                        <li>Resilience</li>
+                        <li>Resilient</li>
                 </div>
             </aside>
             
@@ -69,7 +69,7 @@ class Resume extends Component {
                             <b><i>2019-Present</i></b>
                         </div>
                         <p className='resDescription'>As a freelance developer, I designed and developed a self-help native application that use's Ionic React Native, Google's serverless, NoSQL firebase complete 
-                         with authentication and crash analytics. This application is currently live on the Android Play Store along side the Apple App Store. 
+                         with authentication and crash analytics. This application is currently live on the Android Play Store. 
                         </p>
                         <hr/>
                     </div>

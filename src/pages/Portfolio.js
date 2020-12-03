@@ -40,10 +40,9 @@ class Portfolio extends Component {
                 </div>
                 <div className='mobileDiv'>
                     <p className='customPara'>Native Apps</p>
-                    <img className='androidApple' alt='android and apple logo' src={androidApple}/>
+                    <img className='androidApple' alt='android logo' src={androidApple}/>
                     <div className='selfteckLinks'>
-                        <a className='selfLink' href='https://play.google.com/store/apps/details?id=io.selfteck.starter'>Selfteck On Android</a>
-                        <a className='selfLink' href='https://apps.apple.com/us/app/selfteck/id1539801566#?platform=iphone'>Selfteck On IOS</a>
+                        <a className='selfLink' href='https://play.google.com/store/apps/details?id=io.selfteck.starter'>SelfTeck On Android</a>
                         </div>
                     <div className='imageLineTwo'>
                             <img className='smallImgTwo' alt='pic of app' src={selfOne}/>

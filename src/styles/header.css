@@ -44,6 +44,8 @@
     .myLink:hover{
         transform: scale(1.2);
     }
+
+    
 }
 
 @media(max-width: 799px){
@@ -57,12 +59,30 @@
         box-shadow: 0 10px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
-   
+    .titleDiv{
+        display: grid;
+        height: 100px;
+        background-color: #353434;
+        font-size: 30px;
+        color: white;
+        align-items: center;
+        justify-items: center;
+    } 
+
+    .titlePara{
+        margin: 0%;
+    }
 
     .logoImg{
         height: 90%;
         position: absolute;
         right: 0px;
+    }
+
+    .mobMenuIcon{
+        color: white;
+        margin-bottom: -5px;
+        margin-top: 10px;
     }
 
     .divLinks{
@@ -79,8 +99,8 @@
     }
 
     .links{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 20% 80%;
         font-size: 20px;
         margin-left: 20px !important;
     }
@@ -89,6 +109,15 @@
         color: white;
         margin-top: 10px;
     }
+
+    .mobResLink{
+        color: white;
+        margin-top: 10px;
+    }
+
+    .desktopResLink{
+        display: none;
+    }
     
     .drawerLogo{
         position: absolute;
@@ -96,6 +125,8 @@
         left: -20px;
         width: 120%;
     }
+
+    
 }
 
 
