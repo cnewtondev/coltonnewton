@@ -8,6 +8,7 @@ import fakeTwo from '../imgs/fakeCarsTwo.jpeg'
 import androidApple from '../imgs/androidApple.png'
 import selfOne from '../imgs/selfOne.png'
 import selfTwo from '../imgs/selfTwo.png'
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 
 class Portfolio extends Component {
@@ -48,6 +49,12 @@ class Portfolio extends Component {
                             <img className='smallImgTwo' alt='pic of app' src={selfOne}/>
                             <img className='smallImgTwo' alt='pic of app'  src={selfTwo}/>
                         </div>
+                </div>
+
+                <div className='gitHubDiv'>
+                <p className='customPara'>GitHub</p>
+                <GitHubIcon className='gitIcon'/>
+                <h4><a href='https://github.com/coltonnewton89' className='portLinks'>View My GitHub</a></h4>
                 </div>
             </div>
          );

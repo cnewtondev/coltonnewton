@@ -85,6 +85,10 @@
         z-index: 2;
         align-self: center;
     }
+
+    .gitIcon{
+        font-size: 175px !important;
+    }
 }
 
 @media(min-width: 800px){
@@ -200,5 +204,9 @@
         color: white!important;
         font-size: 25px;
         margin-top: 35px;
+    }
+
+    .gitIcon{
+        font-size: 200px !important;
     }
 }
